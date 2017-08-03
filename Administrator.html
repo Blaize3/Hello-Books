@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="Styles/adminControl.css">
+	<link rel="shortcut icon" href="">
+	<title>Welcome to Hello-Books</title>
+	<style type="text/css">
+		body{
+			font-family: geneva, verdana, sans-serif;
+			font-size: 100%;
+			color: #000000;
+		}
+		.content{
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			/*background: #eeeeee;*/
+			text-align: center;
+		}
+		.headText{
+			font-family: sans-serif;
+			font-size: 250%;
+			font-weight: bolder;
+		}
+		#titleHead1{color: #32cd32;}
+		#titleHead2{color: #32cd32;}
+		#titleHead3{color: #32cd32;}
+
+		#sideMenu li{
+			display: block;
+			width: 330px;
+			font-size: 90%;
+			font-weight: bolder;
+			text-align: left;
+			padding-left: 40px;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			margin-left: -40px;
+		}
+
+		#sideMenu li:hover{
+			background-color: #00ff00;
+		}
+
+		#foot{height:20px;font-size: 70%;color: #32cd32; padding-top: 30px;}
+	</style>
+	<script type="text/javascript" src="javascript/adminPages.js">
+		
+	</script>
+</head>
+<body>
+	<header>
+		<div class="content"><span id="titleHead1" class="headText">Hello</span><span id="titleHead2" 					class="headText">-</span><span id="titleHead3" class="headText">Books</span></div>
+	</header>
+
+	<section>
+		<div class="content">
+			<nav class="content">
+				<ul>
+					
+				</ul>
+			</nav>
+			<div id = "table">
+				<div id = "tableRow">
+					<div id = "leftPanel">
+						<div id="subPanel">
+							<div>
+								<p id ="mainText">
+									Administrative Tools
+								</p>
+							</div>
+							<ul id="sideMenu">
+								<li id="createABookGenreScreen">Create book genre</li>
+								<li id="addABookScreen">Add a new book</li>
+								<li id="modifyBookInfoScreen">Change book information</li>
+								<li id="updateBookQuantityScreen">Update book quantity</li>
+								<li id="deleteABookScreen">Delete  book</li>					
+							</ul>
+						</div>
+					</div>
+					<div id = "mainPanel">
+						<div id="mainContentArea">
+							<p>Welcome Administrator, do well to select task from the administrative tool.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="content" id="foot">&copy; 2017, Hello-Books.</div>
+	</footer>
+</body>
+</html>

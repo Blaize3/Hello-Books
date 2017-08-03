@@ -1,0 +1,134 @@
+nav{
+	height: 45px;
+	background-color: #32cd32;
+}
+
+nav ul{
+	border: thin solid #32cd32;
+	padding: 10px 40px;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a:link, nav ul li a:visited{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 12px 40px;	
+	
+}
+
+nav ul li a:hover{
+	background-color: #00ff00;
+}
+
+#table{
+	display: table;
+	height: 500px;
+}
+
+#tableRow{
+	display: table-row;
+}
+
+#leftPanel{
+	display: table-cell;
+	width: 200px;
+	background-color: #32cd32;
+}
+
+#mainPanel{
+	display: table-cell;
+	width: 500px;
+	/*background-color: #aaaaaa;*/
+}
+
+#rightPanel{
+	display: table-cell;
+	width: 300px;
+	/*background-color: #aaaaaa;*/
+}
+
+#cell1{
+	width: 120px;
+	text-align: right;
+}
+
+#cell2{
+	width: 80px;
+	text-align: left;
+}
+
+#profilePix{
+	border: thin solid #000000;
+	border-radius: 40px;
+}
+
+#questions{
+	width: 300px;
+}
+
+#questions p{
+	font-size: 90%;
+	font-family: serif;
+	color: #000000;
+}
+
+#comment{
+	width: 280px;
+	height: 180px;
+	color: #000000;
+	font-size: 80%;
+	border: thin solid #000000;
+	border-radius: 3px;
+	background-color: #ffffff;
+	font-family: serif;
+}
+
+.submit{
+	height: 40px;
+	width: 280px;
+	border: 4px solid #32cd32;
+	background-color: #32cd32;
+	border-radius: 3px;
+	color: #ffffff;
+	font-size: 110%;
+	font-family: serif;
+}
+
+.submit:hover{
+	border: 4px solid #00ff00;
+	background-color: #00ff00;
+	color: #ffffff;
+}
+
+#settingHead{
+	height: 30px;
+	width: 500px;
+	border: thin solid #ffffff;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 150%;
+	font-weight: bolder;
+	color: ;
+}
+
+.selected{
+	background-color: #008000;
+}
+
+#userAbbr{
+	color: blue;
+}
+
+.inputText{
+	width: 280px;
+	height: 35px;
+	color: #000000;
+	font-size: 80%;
+	border: thin solid #000000;
+	border-radius: 3px;
+	background-color: #ffffff;
+	font-family: serif;
+}

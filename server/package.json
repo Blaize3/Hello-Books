@@ -1,0 +1,19 @@
+{
+  "name": "hellobooks",
+  "version": "1.0.0",
+  "description": "Hello-Books API Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "Server"
+  ],
+  "author": "Ode Akugbe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  }
+}

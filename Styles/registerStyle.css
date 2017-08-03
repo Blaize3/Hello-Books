@@ -1,0 +1,171 @@
+.contentBody{
+	width: 1000px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ffffff;
+}
+
+/*#regContentArea{
+	width: 650px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background: blue;
+	border: 1px solid #ffffff;
+	margin-top: 30px;
+
+}*/
+
+table{
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px; 
+	border-bottom: 10px solid #ffffff;
+	background: #ffffff;
+}
+
+tr{
+	width: 500px;
+}
+#tableHeader{
+	text-align: center;
+	font-family: serif;
+	font-size: 200%;
+	color: #32cd32;
+	padding: 20px 0px 10px 0px;
+}
+
+#inBetween{
+	height: 5px;
+}
+
+.right{
+	width: 500px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.text{
+	width: 400px;
+	height: 40px;
+	color: #000000;
+	font-size: 110%;
+	border: thin solid #000000;
+	border-radius: 3px;
+	background-color: #ffffff;
+	font-family: serif;
+}
+
+#bottomFields{
+	text-align: center;
+}
+
+#signup{
+	border: thin solid #32cd32;
+	background-color: #32cd32;
+	color: #ffffff;
+	font-family: serif;
+}
+
+#signup:hover{
+	border: thin solid #00ff00;
+	background-color: #00ff00;
+	color: #ffffff;
+}
+
+#signupAdmin{
+	border: thin solid #32cd32;
+	background-color: #32cd32;
+	color: #ffffff;
+	font-family: serif;
+}
+
+#signupAdmin:hover{
+	border: thin solid #00ff00;
+	background-color: #00ff00;
+	color: #ffffff;
+}
+
+#signup2{
+	border: thin solid #32cd32;
+	background-color: #32cd32;
+	color: #ffffff;
+	font-family: serif;
+}
+
+#signup2:hover{
+	border: thin solid #00ff00;
+	background-color: #00ff00;
+	color: #ffffff;
+}
+
+p{
+	font-size: 90%;
+	font-family: serif;
+	color: #000000;
+}
+
+p a#signIn{
+	font-size: 90%;
+	font-family: serif;
+	font-weight: bolder;
+	color: #32cd32;
+	text-decoration: none;	
+}
+
+p a#signIn:hover{
+	color: #00ff00;
+}
+
+#messageBody{
+	font-size: 100%;
+	font-family: sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	border: thin solid #32cd32;
+	background-color: #00ff00;
+	border-radius: 10px;
+	padding:  50px 100px 50px 100px;
+}
+
+#messageBody2{
+	font-size: 100%;
+	font-family: sans-serif;
+	font-weight: bolder;
+	border: thin solid #32cd32;
+	background-color: #00ff00;
+	border-radius: 10px;
+	text-align: center;
+}
+
+/*#alignText{
+	padding-left: 30px;
+}
+
+#alignText2{
+	padding-left: 60px;
+}*/
+
+#policy{
+	padding-left: 120px;
+	padding-right: 120px;
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 80%;
+}
+
+#refPolicy{
+	text-decoration: none;
+	color: #32cd32;
+	font-family: sans-serif;
+	font-size: 110%;
+
+}
+
+#refPolicy:hover{
+	color: #00ff00;
+}
+

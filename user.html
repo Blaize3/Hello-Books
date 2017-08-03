@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="Styles/borrowBook.css">
+	<link rel="shortcut icon" href="">
+	<title>Welcome to Hello-Books</title>
+	<style type="text/css">
+		body{
+			font-family: geneva, verdana, sans-serif;
+			font-size: 100%;
+			color: #000000;
+		}
+		.content{
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			/*background: #eeeeee;*/
+			text-align: center;
+		}
+		.headText{
+			font-family: sans-serif;
+			font-size: 250%;
+			font-weight: bolder;
+		}
+		#titleHead1{color: #32cd32;}
+		#titleHead2{color: #32cd32;}
+		#titleHead3{color: #32cd32;}
+
+		#sideMenu li{
+			display: block;
+			width: 180px;
+			font-size: 90%;
+			font-weight: bolder;
+			text-align: left;
+			padding-left: 40px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			margin-left: -40px;
+		}
+
+		#sideMenu li:hover{
+			background-color: #00ff00;
+		}
+
+		#foot{height:20px;font-size: 70%;color: #32cd32; padding-top: 30px;}
+	</style>
+	<script type="text/javascript" src="javascript/borrowBook.js">
+		
+	</script>
+</head>
+<body>
+	<header>
+		<div class="content"><span id="titleHead1" class="headText">Hello</span><span id="titleHead2" 					class="headText">-</span><span id="titleHead3" class="headText">Books</span></div>
+	</header>
+
+	<section>
+		<div class="content">
+			<nav class="content">
+				<ul>
+					
+				</ul>
+			</nav>
+			<div id = "table">
+				<div id = "tableRow">
+					<div id = "leftPanel">
+						<div id = "userProfile">
+						<ul id="sideMenu">
+							<li>Profile</li>
+						</ul>
+							<table>
+								<tr>
+									<td id="cell1"><img src="images/map.jpg" id="profilePix" 				height="80px" width="80px" /></td>
+									<td id="cell2"> [<span id = "userAbbr">OA</span>]</td>
+								</tr>
+							</table>
+						</div>
+						<div id="subMenu">
+							<ul id="sideMenu">
+								<li>History</li>
+								<li>Notifications</li>
+								<li>Borrowed books</li>
+								<li>Change password</li>
+								<li>Logout</li>
+							</ul>
+						</div>
+					</div>
+					<div id = "mainPanel">
+						<div>
+							<div id="settingHead">Ok</div>
+							<div id=settingBody>
+								<p><br />select a menu from the left panel and see...</p>
+							</div>
+						</div>
+					</div>
+					<div id = "rightPanel">
+						<form action="" method="" id = "questions">
+							<p><label for="comment">Any question? Leave a message.</label></p>
+							<textarea id= "comment" name="comment" placeholder="  Comment/ Questions" ></textarea>
+							<br /><br />
+							<input type="button" value="Submit" name="submit" id="submit" class="submit" />
+						</form>
+						<p><br /><br /><br /><br /><a href="viewBook.html">View all books</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="content" id="foot">&copy; 2017, Hello-Books.</div>
+	</footer>
+</body>
+</html>

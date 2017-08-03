@@ -1,0 +1,95 @@
+adventure = [{
+	"ISBN" 		: "6578476587885",
+	"Title" 	: "Harry potter and half blood prince",
+	"Author" 	: "I will remember",
+	"Publisher" : "Who?",
+	"Year" 		: "2015",
+	"Summary" 	: "Great book",
+	"Status" 	: "Not available",
+}];
+
+
+biography = [{
+	"ISBN" 		: "978-978-942-010-0",
+	"Title" 	: "Ode",
+	"Author" 	: "Oghogho Amieghomwan Eghosasere Ode",
+	"Publisher" : "iCreativeHedgs Platform",
+	"Year" 		: "2017",
+	"Summary" 	: "This is a biography.",
+	"Status" 	: "Available",
+}];
+
+fantasy = [{
+	"ISBN" 		: "2453724355",
+	"Title" 	: "Love comes softly",
+	"Author" 	: "Brian Tracy",
+	"Publisher" : "Zillax Press",
+	"Year" 		: "2004",
+	"Summary" 	: "Romance",
+	"Status" 	: "Not available",
+},
+{
+	"ISBN" 		: "54656737644",
+	"Title" 	: "Love dont cost a thing",
+	"Author" 	: "Jennifer Lopez",
+	"Publisher" : "Murder Inc",
+	"Year" 		: "2000",
+	"Summary" 	: "JLo is a chick",
+	"Status" 	: "Not available",
+}];
+
+horror = [{
+	"ISBN" 		: "000000000000",
+	"Title" 	: "Zombies",
+	"Author" 	: "Akugbe Ode",
+	"Publisher" : "xjg",
+	"Year" 		: "2050",
+	"Summary" 	: "wait for the book.",
+	"Status" 	: "Not available",
+}];
+
+motivational = [{
+	"ISBN" 		: "9780471163145",
+	"Title" 	: "How to be a great communicator",
+	"Author" 	: "Nido R. Qubein",
+	"Publisher" : "Pinnacle of Grace",
+	"Year" 		: "1997",
+	"Summary" 	: "Best books on soft skills",
+	"Status" 	: "Available",
+},
+
+{
+	"ISBN" 		: "1891984497",
+	"Title" 	: "Think and sell like a CEO",
+	"Author" 	: "Anthony Parinello",
+	"Publisher" : "Entrepreneur press",
+	"Year" 		: "2002",
+	"Summary" 	: "Master the act of selling",
+	"Status" 	: "Available",
+}];
+
+religion = [{
+	"ISBN" 		: "055327757-x",
+	"Title" 	: "The greatest sales man in the world",
+	"Author" 	: "OG Mandino",
+	"Publisher" : "Bantain Books",
+	"Year" 		: "1985",
+	"Summary" 	: "Great book.",
+	"Status" 	: "Available",
+}];
+
+users = [{
+	"firstname" : "Akugbe",
+	"lastname" : "Ode",
+	"email" : "akugbeode@yahoo.com",
+	"password" : "oghogo@1",
+	"membership" : "Silver"
+},
+
+{
+	"firstname" : "Precious",
+	"lastname" : "Ode",
+	"email" : "preciousode@gmail.com",
+	"password" : "oghogo@1",
+	"membership" : "Platinum"
+}]

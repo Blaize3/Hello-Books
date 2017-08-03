@@ -1,0 +1,64 @@
+header{
+	border-bottom: thin solid #32cd32;
+	position: fixed;
+	width: 100%;
+	height: 130px;
+	z-index: 10000000;
+	margin-top: -20px;
+	top: 0px;
+	opacity: 100%;
+	background-color: #fffff;
+}
+
+#headHeight{
+	height: 120px;
+	background-color: #ffffff;
+}
+
+#table{
+	display: table;
+}
+
+#tableRow{
+	display: table-row;
+}
+
+#tableCell1{
+	display: table-cell;
+	width: 600px;
+}
+
+#tableCell2{
+	display: table-cell;
+	width: 200px;
+	background-color: #ffffff;
+}
+
+#homeHead{
+	color: #32cd32;
+}
+
+#sign{
+	margin-top: 90px;
+}
+
+#sign a:link, #sign a:visited{
+	text-orientation: none;
+	font-size: 80%;
+	color: #32cd32;
+}
+
+#sign a:hover{
+	color: #00ff00;
+}
+
+#mainImage{
+	width: 100%;
+	height: 500px;
+	margin-top: 120px;
+	background-image:url(../images/main.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
